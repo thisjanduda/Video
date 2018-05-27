@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600&subset=latin-ext');
+
+body {
+  position: relative;
+  color: #222 !important;
+}
+.fixed{
+  position : fixed;
+  top : 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 99;
+}
+.font-1 {
+    font-family: 'Open Sans', sans-serif;
+    color:#ff6d6d;
+}
+
+.font-2 {
+    font-family: 'Lobster', cursive;
+    color: #ff6d6d;
+
+}
+
+.color-1 {
+    background-color: : #ff6d6d;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-width: 320px;
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+.logo {
+    width: 25%;
+    max-width: 250px;
+    display: block;
+    margin: 40px auto;
+}
+
+
+
+.main-nav {
+    border-top: 1px solid #ddd;
+    background-color: white;
+    margin: auto;
+    z-index: 3;
+    width: 100%;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-nav ul li{
+  width: 100%;
+  display: flex;
+    justify-content: center;
+   
+}
+@media (min-width: 700px){
+  .main-nav ul li{
+    width: auto;
+     
+  }
+  
+}
+.nv-link {
+    font-size: 16px;
+    display: block;
+    padding: 25px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nv-link:focus{
+  color: #222;
+}
+.nv-link:hover{
+    color: #ff6d6d;
+    text-decoration: none;
+}
+
+.nav-link.active{
+    color: #ff6d6d;
+
+ }
+.nav-wrapper{
+  position: absolute;
+  background: white;
+  display: none;
+  
+}
+.nav-wrapper.is-active{
+  display: block;
+}
+
+#anchor{
+  min-height: 73px;
+  position: relative;
+}
+@media (min-width: 700px){
+  .hamburger{
+    display: none;
+  }
+  .nav-wrapper{
+    position: relative;
+    display: block;
+  }
+}
+.background {
+    background-image: url('../img/1.jpg');
+    background-position: center 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.overlay {
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay h2{
+  color: white;
+  font-size: 50px;
+}
+.background-2 {
+    background-image: url('../img/Depositphotos_26398441_original.jpg');
+    background-position: center 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+    .overlay-2 {
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.section-header {
+    text-align: center;
+    /*text-transform: uppercase;*/
+    margin: 35px 0;
+    color: #222;
+    font-family: 'Lobster', cursive;
+
+
+}
+.section-header:before, .section-header:after{
+      content: '';
+      display: inline-block;
+      width: 40px;
+      height: 1px;
+      border-top: 3px double rgba(0,0,0,.5);
+      vertical-align: middle;
+      margin: 0 15px;
+    }
+
+
+
+
+.owl-carousel .fixed-video-aspect {
+  position: relative;
+}
+.owl-carousel .fixed-video-aspect:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+.owl-carousel .fixed-video-aspect > .item-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+.collapse-outer {
+	margin-top: 1.25rem;
+	
+}
+.collapse.show {
+	visibility: visible;
+
+}
+.btn-primary{
+	background-color: #ff6d6d !important;
+	border-color:#ff6d6d !important;
+
+}
+.btn-primary:hover, .btn-primary:active {
+	 background-color: #e25f5f !important;
+	 border-color:#e25f5f !important;
+	 box-shadow: 0 0 0 0.2rem #e25f5f;
+
+} 
+
+.btn-primary:focus {
+
+	 outline-color:#e25f5f;
+	 box-shadow: 0 0 0 0.2rem #e25f5f;
+}
+
+.color{
+	background-color: #f9f4f4;
+
+}
+
+#oferta{
+	padding-bottom: 100px;
+}
+
+#o-nas{
+	padding-bottom: 100px;
+}
+#opinie{
+	padding-bottom: 100px;}
+#kontakt{
+	padding-bottom: 2px;}
+
+.projekty-padding{
+	padding-bottom: 50px !important;
+}
+
+.zdj-opinie {
+
+    width: 25%;
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+/**/
+/**/
+/**/
+ #contact{
+    padding:10px 0 10px;
+  }
+
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+/* Generic Button Styles */
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#ff6d6d;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background:#ff6d6d;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+  }
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+center{
+  margin-top:330px;
+}
+input {
+    position: relative;
+    z-index: 9999;
+}
+/**/
+/**/
+/**/
+
+
